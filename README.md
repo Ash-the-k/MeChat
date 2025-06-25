@@ -4,6 +4,26 @@ MeChat is a real-time chat application built with the MERN stack and Socket.IO. 
 
 ---
 
+## Table of Contents
+
+* [1. Project Overview](#1-project-overview)
+* [2. Features](#2-features)
+* [3. Tech Stack](#3-tech-stack)
+* [4. Setup Instructions](#4-setup-instructions)
+
+  * [Prerequisites](#prerequisites)
+  * [1. Clone the Repository](#1-clone-the-repository)
+  * [2. Install Dependencies](#2-install-dependencies)
+  * [3. Configure Environment Variables](#3-configure-environment-variables)
+  * [4. Start the Application](#4-start-the-application)
+  * [5. Access the App](#5-access-the-app)
+* [5. Screenshots](#5-screenshots)
+* [6. Development Notes](#6-development-notes)
+* [7. Contributing Guide](#7-contributing-guide)
+* [8. License](#8-license)
+
+---
+
 ## 1. Project Overview
 
 MeChat is designed to solve the problem of real-time, secure, and user-friendly communication. It supports both one-on-one and group conversations, allowing users to register, authenticate, and chat instantly. The app is suitable for teams, friends, or any group needing fast, reliable messaging.
