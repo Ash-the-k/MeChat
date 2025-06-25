@@ -128,6 +128,10 @@ PORT=5000
 Create a `.env` file in the `public` directory with:
 
 ```env
+REACT_APP_LOCALHOST_KEY = "chat-app-user";
+REACT_APP_PROFILE_PICS_PATHS = "http://localhost:5000/images/profile_pictures/"
+REACT_APP_ATTACHMENT_PATHS = "http://localhost:5000/images/attachments/"
+
 REACT_APP_API_URL=http://localhost:5000
 ```
 
