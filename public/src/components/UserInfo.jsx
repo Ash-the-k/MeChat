@@ -9,7 +9,7 @@ import { ChatState } from "../context/ChatProvider";
 import { deleteUserRoute } from "../utils/APIRoutes";
 import { toastOptions } from "../utils/constants";
 import UpdateProfile from "./UpdateProfile";
-import SubmitModal from "./Aux/SubmitModal";
+import SubmitModal from "./AuxComponent/SubmitModal";
 
 
 function UserInfo({ fetchAgain, setFetchAgain }) {

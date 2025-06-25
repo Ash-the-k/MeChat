@@ -7,7 +7,7 @@ import { ChatState } from "../context/ChatProvider";
 import { getSender, getSenderProfilePic } from "../config/ChatLogics";
 
 import UpdateGroupChat from "./Group/UpdateGroupChat";
-import SubmitModal from "./Aux/SubmitModal";
+import SubmitModal from "./AuxComponent/SubmitModal";
 import SingleChat from "./SingleChat";
 
 import { ToastContainer, toast } from "react-toastify";

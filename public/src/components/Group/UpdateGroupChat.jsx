@@ -18,8 +18,8 @@ import {
 // import { toastOptions } from "../utils/constants";
 import { toastOptions } from "../../utils/constants";
 
-import UserListItem from "../Aux/UserListItem";
-import UserBage from "../Aux/UserBage";
+import UserListItem from "../AuxComponent/UserListItem";
+import UserBage from "../AuxComponent/UserBage";
 
 const UpdateGroupChat = ({ fetchAgain, setFetchAgain, setModalActive }) => {
     const [groupChatName, setGroupChatName] = useState();

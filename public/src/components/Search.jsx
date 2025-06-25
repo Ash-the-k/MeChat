@@ -4,7 +4,7 @@ import axios from "axios";
 import { accessChatRoute } from "../utils/APIRoutes";
 import { toastOptions } from "../utils/constants";
 import { ChatState } from "../context/ChatProvider";
-import UserListItem from "./Aux/UserListItem";
+import UserListItem from "./AuxComponent/UserListItem";
 
 function Search({ searchResults }) {
   const {

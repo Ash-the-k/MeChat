@@ -12,8 +12,8 @@ import { groupChatRoute, allUsersRoute } from "../../utils/APIRoutes";
 import { toastOptions } from "../../utils/constants";
 
 
-import UserListItem from "../Aux/UserListItem"
-import UserBage from "../Aux/UserBage";
+import UserListItem from "../AuxComponent/UserListItem"
+import UserBage from "../AuxComponent/UserBage";
 
 function GroupChatCreate({ setModalActive }) {
     const [groupChatName, setGroupChatName] = useState();

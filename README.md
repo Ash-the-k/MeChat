@@ -88,14 +88,16 @@ cd MeChat
 
 ### 2. Install Dependencies
 
-#### Backend
+**You will need two terminals: one for the backend, one for the frontend.**
+
+#### Terminal 1: Backend
 
 ```bash
 cd server
 npm install
 ```
 
-#### Frontend
+#### Terminal 2: Frontend
 
 ```bash
 cd ../public
@@ -139,12 +141,11 @@ REACT_APP_API_URL=http://localhost:5000
 
 ### 4. Start the Application
 
-**You will need two terminals: one for the backend, one for the frontend.**
+**Use the two terminal created to start.**
 
 #### Terminal 1: Start Backend
 
 ```bash
-cd server
 npm start
 ```
 
@@ -153,7 +154,6 @@ npm start
 #### Terminal 2: Start Frontend
 
 ```bash
-cd public
 npm start
 ```
 
