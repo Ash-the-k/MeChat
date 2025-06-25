@@ -62,7 +62,7 @@ MeChat is designed to solve the problem of real-time, secure, and user-friendly 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Ash-the-k/MeChat.git
 cd MeChat
 ```
 
