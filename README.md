@@ -13,8 +13,8 @@ MeChat is a real-time chat application built with the MERN stack and Socket.IO. 
 
   * [Prerequisites](#prerequisites)
   * [1. Clone the Repository](#1-clone-the-repository)
-  * [2. Install Dependencies](#2-install-dependencies)
-  * [3. Configure Environment Variables](#3-configure-environment-variables)
+  * [2. Configure Environment Variables](#2-configure-environment-variables)
+  * [3. Install Dependencies](#3-install-dependencies)
   * [4. Start the Application](#4-start-the-application)
   * [5. Access the App](#5-access-the-app)
 * [5. Screenshots](#5-screenshots)
@@ -86,25 +86,7 @@ git clone https://github.com/Ash-the-k/MeChat.git
 cd MeChat
 ```
 
-### 2. Install Dependencies
-
-**You will need two terminals: one for the backend, one for the frontend.**
-
-#### Terminal 1: Backend
-
-```bash
-cd server
-npm install
-```
-
-#### Terminal 2: Frontend
-
-```bash
-cd ../public
-npm install
-```
-
-### 3. Configure Environment Variables
+### 2. Configure Environment Variables
 
 #### Backend (`server/.env`)
 
@@ -138,6 +120,24 @@ REACT_APP_API_URL=http://localhost:5000
 ```
 
 - `REACT_APP_API_URL`: The base URL for backend API requests
+
+### 3. Install Dependencies
+
+**You will need two terminals: one for the backend, one for the frontend.**
+
+#### Terminal 1: Backend
+
+```bash
+cd server
+npm install
+```
+
+#### Terminal 2: Frontend
+
+```bash
+cd public
+npm install
+```
 
 ### 4. Start the Application
 
