@@ -1,0 +1,35 @@
+$main_color: #f47d77;         // Locked: Warm coral
+$secondary_color: #f19590;    // Locked: Soft peach
+
+$selection_color: #fae4e1;    // Pale rose — subtle highlight
+$background_color: rgb(251, 252, 251);   // Softest blush background — barely tinted
+
+$button_color: #ff7e6b;       // Deep cocoa-brown — strong contrast, earthy
+$border_color_light: #e6bfb8; // Muted pinkish-beige — soft outlines
+
+$text_main_color: #1f1413;     // Deep brown-black — excellent contrast
+$text_secondary_color: #5a3c39; // Muted mocha — subtle for subtext
+$text_color: #a67a75;           // Dusty rose — good for placeholders
+
+$recieved_message_color: #f2c4bb; // Light coral-pink (message bubble)
+$sended_message_color: #c7dacf;   // Cool mint-grey (gentle contrast)
+
+$white: #fff5f3;
+$modal_bg: #00000076;
+
+$gradient: linear-gradient(
+  45deg,
+  #f47d77 0%,
+  #f57f83 25%,
+  #f58e96 50%,
+  #f3a3a0 75%,
+  #f19590 100%
+);
+
+$border_round: 50%;
+
+$gap_lg: 2rem;
+$gap_md: 1rem;
+$gap_sm: 0.5rem;
+
+$base: 5px;
